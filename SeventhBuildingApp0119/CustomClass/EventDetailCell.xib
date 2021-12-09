@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="EventDetailCell" customModule="SeventhBuildingApp0119" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="520"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="520"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzz-wl-t0V">
+                        <rect key="frame" x="0.0" y="0.0" width="317" height="520"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8F 781教室" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l71-Eq-xxX">
+                        <rect key="frame" x="0.0" y="10" width="317" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Web・モバイル分野" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHj-9o-XcU">
+                        <rect key="frame" x="10" y="49" width="307" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ケータイアプリケーション科" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXr-Qw-VbZ">
+                        <rect key="frame" x="0.0" y="83" width="307" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09 / 21 AM : 10:00 ~ 11:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hgd-wU-goF">
+                        <rect key="frame" x="10" y="117" width="307" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生徒たちの自主開発アfプリ発表会f" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rlc-yz-uNG">
+                        <rect key="frame" x="102" y="151" width="215" height="48"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="781" translatesAutoresizingMaskIntoConstraints="NO" id="Kkk-0j-eBm">
+                        <rect key="frame" x="0.0" y="204" width="317" height="316"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="l71-Eq-xxX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="0VB-7u-p5A"/>
+                <constraint firstAttribute="bottom" secondItem="Kkk-0j-eBm" secondAttribute="bottom" id="6iz-11-cjA"/>
+                <constraint firstAttribute="trailing" secondItem="Hgd-wU-goF" secondAttribute="trailing" id="9qo-QU-9T0"/>
+                <constraint firstAttribute="trailing" secondItem="l71-Eq-xxX" secondAttribute="trailing" id="AQU-vJ-Ro3"/>
+                <constraint firstAttribute="trailing" secondItem="SHj-9o-XcU" secondAttribute="trailing" id="CYO-Qd-Y3a"/>
+                <constraint firstItem="rlc-yz-uNG" firstAttribute="top" secondItem="Hgd-wU-goF" secondAttribute="bottom" constant="10" id="Cne-te-ODb"/>
+                <constraint firstItem="l71-Eq-xxX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="E7b-QF-rB2"/>
+                <constraint firstItem="Kkk-0j-eBm" firstAttribute="top" secondItem="rlc-yz-uNG" secondAttribute="bottom" constant="5" id="Elr-fV-MJV"/>
+                <constraint firstAttribute="trailing" secondItem="rlc-yz-uNG" secondAttribute="trailing" id="Frz-4X-yjh"/>
+                <constraint firstItem="SHj-9o-XcU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Grd-k7-Lkv"/>
+                <constraint firstItem="QXr-Qw-VbZ" firstAttribute="top" secondItem="SHj-9o-XcU" secondAttribute="bottom" constant="10" id="HdB-f2-DVx"/>
+                <constraint firstItem="vzz-wl-t0V" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Kz5-o7-bTb"/>
+                <constraint firstAttribute="trailing" secondItem="vzz-wl-t0V" secondAttribute="trailing" id="M6k-43-42e"/>
+                <constraint firstItem="SHj-9o-XcU" firstAttribute="top" secondItem="l71-Eq-xxX" secondAttribute="bottom" constant="10" id="N1E-5d-VCd"/>
+                <constraint firstAttribute="bottom" secondItem="vzz-wl-t0V" secondAttribute="bottom" id="NMV-g3-hGd"/>
+                <constraint firstItem="vzz-wl-t0V" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NR8-Mf-R2L"/>
+                <constraint firstItem="Kkk-0j-eBm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UZE-xM-W0M"/>
+                <constraint firstAttribute="trailing" secondItem="QXr-Qw-VbZ" secondAttribute="trailing" constant="10" id="cN0-6m-Hq7"/>
+                <constraint firstAttribute="trailing" secondItem="Kkk-0j-eBm" secondAttribute="trailing" id="kwD-AO-9HG"/>
+                <constraint firstItem="QXr-Qw-VbZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pe0-Kh-Hoy"/>
+                <constraint firstItem="Hgd-wU-goF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="tkK-3w-58d"/>
+                <constraint firstItem="Hgd-wU-goF" firstAttribute="top" secondItem="QXr-Qw-VbZ" secondAttribute="bottom" constant="10" id="uE6-fV-vje"/>
+                <constraint firstItem="rlc-yz-uNG" firstAttribute="width" secondItem="Hgd-wU-goF" secondAttribute="width" multiplier="0.7" id="zq4-eM-r7H"/>
+            </constraints>
+            <size key="customSize" width="317" height="520"/>
+            <connections>
+                <outlet property="backGround" destination="vzz-wl-t0V" id="aKL-ar-Lre"/>
+                <outlet property="eventDetailLabel" destination="rlc-yz-uNG" id="RlV-EA-vPA"/>
+                <outlet property="eventFieldLabel" destination="SHj-9o-XcU" id="r1z-MH-dlv"/>
+                <outlet property="eventFloorLabel" destination="l71-Eq-xxX" id="FjO-0g-4fS"/>
+                <outlet property="eventStartTimeLabel" destination="Hgd-wU-goF" id="aai-jE-yHh"/>
+                <outlet property="eventSubjectLabel" destination="QXr-Qw-VbZ" id="dR7-Rg-pEo"/>
+                <outlet property="floorImageView" destination="Kkk-0j-eBm" id="p8q-1R-Xxs"/>
+            </connections>
+            <point key="canvasLocation" x="-93.478260869565219" y="224.33035714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="781" width="730" height="1251"/>
+    </resources>
+</document>
